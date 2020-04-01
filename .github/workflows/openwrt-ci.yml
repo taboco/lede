@@ -177,7 +177,6 @@ jobs:
           #CONFIG_PACKAGE_luci-app-wireguard=y
           #CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-passwall=y
-          CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-app-airplay2=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           EOF
@@ -186,6 +185,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-theme-netgear=y
+          CONFIG_PACKAGE_luci-theme-argon=y
           EOF
 
           # 常用软件包:
