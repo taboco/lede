@@ -63,8 +63,8 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
-          https://github.com/hong0980/luci-app-passwall.git
-          https://github.com/jerrykuku/luci-theme-argon.git
+          git clone https://github.com/hong0980/luci-app-passwall.git
+          git clone https://github.com/jerrykuku/luci-theme-argon.git
  
 
       - name: Update feeds
